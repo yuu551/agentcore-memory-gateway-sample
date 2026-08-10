@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """IAM認証(AWS_IAM)のGatewayを作成し、READYになるまで待つ。
 
 usage:

@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """CognitoでログインしてIDトークンを取得し、JWT Gateway経由でMemoryを呼び出す。
 
 usage:

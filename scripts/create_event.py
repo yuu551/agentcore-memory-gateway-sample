@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """Gateway経由でMemoryにイベント(CreateEvent)を書き込む。
 
 usage:

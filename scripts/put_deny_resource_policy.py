@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """Memoryへの直接アクセスを拒否するリソースベースポリシーを適用/削除する。
 
 GATEWAY_IAM_ROLEモードではMemoryから見える主体がGateway実行ロールになるため、

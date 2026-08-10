@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """管理画面役: Gateway経由でMemoryの会話履歴を閲覧する(Memoryへの直接権限は不要)。
 
 usage:

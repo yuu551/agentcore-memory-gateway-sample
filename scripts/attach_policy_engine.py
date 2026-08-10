@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """Policy EngineをGatewayに紐付ける(LOG_ONLY / ENFORCE)。
 
 Gateway実行ロールにPolicy Engineへのアクセス権限

@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """JWT認証(CUSTOM_JWT)のGatewayを作成し、READYになるまで待つ。
 
 カスタム属性を含むIDトークンで認証するため、allowedAudience(audクレーム)で検証する。

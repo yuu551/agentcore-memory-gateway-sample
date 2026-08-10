@@ -11,9 +11,13 @@ Amazon Bedrock AgentCore GatewayのHTTPコネクタターゲット(agentcore-mem
 - [uv](https://docs.astral.sh/uv/) がインストール済みであること
 - AWS認証情報が設定済みであること(検証リージョン: us-east-1)
 - AgentCore Memoryが作成済みであること
-- botocore 1.43.65以降(スクリプトの依存としてuvが自動解決します)
 
-各スクリプトは[PEP 723](https://peps.python.org/pep-0723/)のインラインメタデータで依存を宣言しているので、`uv run` だけで実行できます。仮想環境の準備は不要です。
+uvのプロジェクトとして管理していて、依存はpyproject.tomlとuv.lockで固定しています(botocore 1.43.65以降が必要)。`uv run` が初回実行時に依存を自動解決するので、cloneしたらそのまま実行できます。
+
+```sh
+git clone https://github.com/yuu551/agentcore-memory-gateway-sample.git
+cd agentcore-memory-gateway-sample
+```
 
 ## 実行手順
 

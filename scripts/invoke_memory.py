@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """IAM認証のGateway経由でMemoryのListActorsを呼び出す(SigV4署名)。
 
 usage:

@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.10"
-# dependencies = ["boto3>=1.43.65"]
-# ///
 """JWT Gateway用のPolicy EngineとCedarポリシー一式を作成する。
 
 作成するポリシー:
