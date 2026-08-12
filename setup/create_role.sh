@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # Gateway実行ロールを作成し、対象Memoryへのアクセス権限を付与する
+# 権限は検証で使う操作に絞っている。削除系・抽出ジョブ系(DeleteEvent /
+# DeleteMemoryRecord / ListMemoryExtractionJobs / StartMemoryExtractionJob)も
+# Gateway経由で使う場合は対応するアクションを追加すること
 # usage: ACCOUNT_ID=123456789012 MEMORY_ID=xxx ./setup/create_role.sh
 set -euo pipefail
 
